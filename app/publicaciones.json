@@ -1,0 +1,22 @@
+{
+	"Publicaciones": [
+	{
+	"id": "1",
+	"titulo": "contenido 1",
+	"contenido": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora aut, dolorum beatae quia temporibus voluptatem tenetur asperiores eligendi! Enim saepe nesciunt odio magni explicabo reprehenderit veritatis suscipit ipsum cum nam.",
+	"etiquetas": "Yolo"
+	},
+	{
+	"id": "3",
+	"titulo": "contenido3",
+	"contenido": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia enim molestiae commodi, itaque odit, quae praesentium eaque facilis saepe magnam, officiis consequatur possimus accusantium aliquam id fugiat eveniet quibusdam quo.",
+	 "etiquetas": "Internet"
+	},
+	{
+	"id": "2",
+	"titulo": "contenido2",
+	"contenido": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia enim molestiae commodi, itaque odit, quae praesentium eaque facilis saepe magnam, officiis consequatur possimus accusantium aliquam id fugiat eveniet quibusdam quo.",
+	 "etiquetas": "Internet"
+	}
+	]
+}

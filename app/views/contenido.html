@@ -1,0 +1,22 @@
+<div class="container">
+	<div class="media" ng-repeat ="conte in datos">
+		<a class="pull-left" ng-href="#/">
+			<img class="media-object" src="../images/yeoman.png" alt="I'm Yeoman">
+		</a>
+		<div class="media-body">
+			<h4 class="media-heading">{{conte.titulo}}</h4>
+			<p>{{conte.contenido}}</p>
+			<span class="label label-default">{{conte.etiquetas}}</span>
+		</div>
+	</div>
+	<div class="panel panel-info" ng-repeat = "conte in datos | orderBy:'id':false">
+		  <div class="panel-heading">
+				<h3 class="panel-title">{{conte.titulo}}</h3>
+		  </div>
+		  <div class="panel-body">
+				{{conte.contenido}}
+				<span class="label label-default">{{conte.etiquetas}}</span>
+		  </div>
+	</div>
+
+</div>

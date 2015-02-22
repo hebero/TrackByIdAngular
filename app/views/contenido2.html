@@ -1,0 +1,11 @@
+<div class="container">
+	<div class="panel panel-info" ng-repeat = "conte in datos | orderBy:'id':false">
+		  <div class="panel-heading">
+				<h3 class="panel-title">{{conte.titulo}}</h3>
+		  </div>
+		  <div class="panel-body">
+				{{conte.contenido}}
+				<span class="label label-default">{{conte.etiquetas}}</span>
+		  </div>
+	</div>
+</div>
